@@ -6,6 +6,7 @@ plugins {
 }
 
 android {
+
     compileSdk =  ProjectConfig.compileSdk
     defaultConfig {
         applicationId = ProjectConfig.appId
@@ -48,6 +49,7 @@ android {
 }
 
 dependencies {
+
     implementation(Compose.compiler)
     implementation(Compose.ui)
     implementation(Compose.uiToolingPreview)
